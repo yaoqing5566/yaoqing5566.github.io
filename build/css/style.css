@@ -1,0 +1,22 @@
+*{padding: 0px; margin: 0px; box-sizing: border-box;-webkit-box-sizing:border-box;;-moz-box-sizing:border-box; font-family: 微软雅黑 }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,table,tbody,p,th,td{ -webkit-text-size-adjust:none; margin: 0; padding: 0; border: none; -webkit-tap-highlight-color:rgba(0,0,0,0); font-size: 1em; font-family:"Microsoft Yahei","微软雅黑",Tahoma,Arial,Helvetica,STHeiti; color: #4c4948; }
+input[type=button], input[type=submit], input[type=file], input[type=text], input[type=tel],input[type=password], button,textarea { margin: 0; padding: 0; resize:none; border:none; outline:none;cursor: pointer; -webkit-appearance: none; -webkit-appearance:none; /*去除input默认样式*/-webkit-border-radius:0px ;}
+img,button,a,select,textarea{ margin: 0; padding: 0; resize:none; border:none; outline:none;-webkit-appearance:none; /*去除input默认样式*/-webkit-border-radius:0px ;}
+ol,ul { list-style:none; }
+h1,h2,h3,h4,h5,h6,p,em{  word-wrap:break-word; font-weight: normal; font-style: normal; }
+a:active, a:focus{ outline:none; }
+body,html,.app-box,#app{position: relative;}
+.clear{clear: both}
+img{border: 0px}
+.app-box{background: url("../images/1.jpg") center center  repeat-y;background-size: cover; overflow: hidden; width: 100%; height: 200px}
+.down-app{
+    background: #2196F3;
+    border-radius: 50px; line-height: 50px; color: #fff; font-size: 16px; position: fixed; width:calc(100% - 40px); left: 20px ; bottom: 20px;
+}
+#app{background-color: rgba(236, 236, 236, 1)}
+@media (max-width: 750px){
+
+
+}
+
+
